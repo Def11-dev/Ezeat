@@ -1,0 +1,410 @@
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/code-1839406_1280.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: #fffdfc;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color:blue;
+
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 35px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+.header-content p {
+    font-size: 16px;
+    color: #F9FAFC;
+    margin-bottom: 20px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #0e38d0;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #2025ba;
+}
+
+.Tech {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.Tech-content  {
+    text-align: center;
+
+}
+
+.Tech-content h2 {
+    font-size: 30px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.Tech-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Tech-1 {
+    padding: 0 25px;
+}
+
+.Tech-1 img {
+    width: 200px;
+}
+
+.Tech-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Tech-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.Services {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/light-1834289_640.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.Services-content {
+    text-align: center;
+}
+
+.Services-content h2 {
+    font-size: 30px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.Services-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.Services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Services-1{
+    padding: 0 100px;
+}
+
+.Services-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.Services-1 h3 {
+    color: #1453e5;
+    font-size: 18px;
+}
+
+.General {
+    display: flex;
+}
+
+.General-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+
+.General-2 {
+    background-image: url(img/pexels-imin-technology-276315592-12935052.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.General-3 {
+    background-image: url(img/pexels-imin-technology-276315592-12935052.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin-bottom: 30px 0 45px 0;
+}
+
+.Blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Blog-1 {
+    padding: 15px 55px;
+}
+
+.Blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.Blog-1 h3 {
+    color: #323337;
+    font-size: 20px;
+}
+
+footer {
+    padding: 3rem;
+    background-color: #222;
+    color: #FFFDFD;
+}
+footer section {
+    float: right;
+}
+footer p {
+    margin: 0;
+    color: #F9FAFC;
+}
+footer a {
+    transition: color 0.3s ease;
+    color: #F9FAFC;
+    text-decoration: none;
+    margin: auto;
+}
+footer a:hover {
+    color: cornflowerblue;
+}
+
+@media(max-width: 991px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .Tech {
+        padding: 30px;
+    }
+
+    .Tech-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .Tech-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Tech-img {
+        display: none;
+    }
+
+    .Services {
+        padding: 30px;
+    }
+
+    .Services-content p {
+        padding: 0;
+    }
+
+    .Services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Services-1 {
+        margin-bottom: 25px;
+    }
+
+    .General {
+        flex-direction: column;
+    }
+
+    .General-1 {
+        padding: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .General-2, .General-3 {
+        display: none;
+    }
+
+    .Blog {
+        padding: 30px;
+    }
+
+    .Blog-content {
+        flex-direction: column;
+    }
+
+    .Blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
